@@ -3,7 +3,7 @@ using namespace std;
 
 bool check_distance(int x, int y) {
 	// view the image in this repository for better understanding
-	// this function is for checking if the euclidean distance between two points is an integer
+	// this function is for checking if the euclidean distance between two coordinates is an integer
 	int x_term = x * x;
 	int y_term = y * y;
 	int d = sqrt(x_term + y_term);
