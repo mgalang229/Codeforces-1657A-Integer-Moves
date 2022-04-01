@@ -17,8 +17,8 @@ void perform_test() {
 	// 1. 0 - destination is at the origin
 	// 2. 1 - the euclidean distance between origin and destination is an integer
 	// 3. 2 - for the first move, we can choose any coordinates such that the euclidean
-	// distance between this and the destination will be an integer so for the second
-	// move, this will be from the chosen coordinates and the destination
+	// distance from origin to chosen and from chosen to destination will be both an integer so for the second
+	// move, this will be from the chosen to the destination coordinates itself
 	if(x == 0 && y == 0) {
 		cout << "0\n";
 		return;
